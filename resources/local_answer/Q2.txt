@@ -1,0 +1,8 @@
+MITx-Science, Technology, Engineering, and Mathematics == 862289
+HarvardX-Computer Science == 690059
+MITx-Computer Science == 668940
+MITx-Government, Health, and Social Science == 627860
+HarvardX-Humanities, History, Design, Religion, and Education == 574077
+HarvardX-Government, Health, and Social Science == 390100
+HarvardX-Science, Technology, Engineering, and Mathematics == 219771
+MITx-Humanities, History, Design, Religion, and Education == 189647

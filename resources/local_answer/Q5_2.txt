@@ -1,0 +1,52 @@
+Advanced Statistics for the Life Sciences
+Atomic and Optical Physics: Atom-Light Interactions 1 -- Matrix elements and quantized field
+Atomic and Optical Physics: Atom-Light Interactions 2: Line Broadening and Two-Photon Transitions
+Atomic and Optical Physics: Atomic structure and atoms in external field
+Atomic and Optical Physics: Coherence
+Big Data and Social Physics
+Calculus: Coordinate Systems and Infinite Series
+Cellular Solids: Applications in Medicine
+Cellular Solids: Applications in Nature
+Central Challenges in American National Security, Strategy and the Press
+Data Analysis for Genomics
+Data Analysis for Genomics: Case Studies in Functional Genomics
+Data Analysis for Genomics: Case Study, RNA Sequence Data Analysis
+Data Analysis for Genomics: Case study, ChIP Sequence Data Analysis
+Data Analysis for Genomics: Case study, DNA Methylation Data Analysis
+Data Analysis for Genomics: Case study, Variant Discovery and Genotyping
+Data Analysis for Genomics: High-performance Computing for Reproducible Genomics
+Data Analysis for Genomics: Introduction to Bioconductor: Annotation and Analysis of Genomes and Genomic Assays
+Data Analysis for Genomics: Introduction to High-Dimensional Data Analysis
+Data Analysis for Genomics: Matrix Algebra and Linear Models
+Data Analysis for Genomics: Statistical Inference and Modeling for High-throughput Experiments
+Data Analysis for Genomics: Statistics and R
+Data Analysis for Genomics: Statistics and R for the Life Sciences
+Electronic Materials and Devices
+Entrepreneurship 101: Who Is Your Customer?
+Entrepreneurship 102: What Can You Do For Your Customer?
+Evaluating Social Programs
+Global Health: Case Studies from a Biosocial Perspective
+Health and Society
+Innovating in Health Care
+Introduction to Aerospace Engineering: Astronautics and Human Spaceflight
+Introduction to Bioconductor
+Introduction to Feedback Control Theory
+Introduction to Linear Models and Matrix Algebra
+Just Money: Banking as if Society Mattered
+Lessons from Ebola: Preventing the Next Pandemic
+Magnetic Materials and Devices
+Making Biologic Medicines for Patients: The Principles of Biopharmaceutical Manufacturing
+Mastering Quantum Mechanics: Entanglement and Angular Momentum
+Mastering Quantum Mechanics: Quantum Dynamics
+Mechanical Behavior of Materials: Linear Elastic Behavior
+Mechanical Behavior of Materials: Stress Transformations, Beams, Columns, and Cellular Solids
+Mechanical Behavior of Materials: Time Dependent Behavior and Failure
+Mobile Application Experiences: Mobile App Design
+Mobile Application Experiences: Reporting Research Findings
+Mobile Application Experiences: Understanding Use
+Molecular Biology: Transcription and Transposition
+Optical Materials and Devices
+Practical Improvement Science in Health Care: A Roadmap for Getting Results
+Principles of Biochemistry
+Super-Earths and Life
+Supply Chain Design
