@@ -1,10 +1,10 @@
-Introduction to State Space Control
-Discrete-Time Signal Processing
-Mastering Quantum Mechanics: Entanglement and Angular Momentum
-Introduction to Control System Design
-Underactuated Robotics
-Flight Vehicle Aerodynamics
-Effective Field Theory
-Mastering Quantum Mechanics: Quantum Dynamics
-Circuits and Electronics
-Dynamics and Control I
+Advanced Introductory Classical Mechanics
+Circuits and Electronics: Basic Circuit Analysis
+Classical Mechanics
+Introduction to Aerodynamics
+Introduction to Aerospace Engineering: Astronautics and Human Spaceflight
+Calculus: Integration
+Mechanics Review
+Circuits and Electronics: Amplification, Speed, and Delay
+Computation Structures: Digital Circuits
+Electricity and Magnetism
