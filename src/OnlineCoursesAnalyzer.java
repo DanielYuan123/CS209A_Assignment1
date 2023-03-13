@@ -181,13 +181,6 @@ public class OnlineCoursesAnalyzer {
                 .map(e->e.getValue())
 
                 .forEach(course->{course.similarity = Math.pow(age - course.averageMedianAge,2) + Math.pow(gender*100 - course.averageMale,2) + Math.pow(isBachelorOrHigher*100 - course.averageisB,2);});
-
-        Set<Map.Entry<String, Course>> entries = numCourse.entrySet();
-        entries.stream().sorted(Comparator.comparing(e->e.getValue().similarity))
-                .forEach(c->{System.out.println(c.getKey()+"=="+c.getValue().similarity + "==" + c.getValue().averageMedianAge+"=="+c.getValue().averageMale+"=="+c.getValue().averageisB);});
-//        for (Map.Entry<String, Course> stringCourseEntry : numCourse.entrySet()) {
-//            System.out.println(stringCourseEntry.getKey() + "==" + stringCourseEntry.getValue().similarity);
-//        }
         return      numCourse.entrySet().stream()
                     .map(e->e.getValue())
                     .sorted(new Comparator<Course>() {
