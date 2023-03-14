@@ -11,6 +11,7 @@ import java.util.LinkedHashMap;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.function.Supplier;
@@ -43,7 +44,7 @@ public class OnlineCoursesAnalyzer {
 
     public Map<String, Integer> getPtcpCountByInst() {
         return courseStreamGenerator.get().sorted((c1, c2) -> {
-            if (c1.institution.compareTo(c2.institution) == 1) {
+            if (c1.institution.compareTo(c2.institution) > 0) {
                 return 1;
             } else if (c1.institution.compareTo(c2.institution) == 0) {
                 return 0;
@@ -58,7 +59,7 @@ public class OnlineCoursesAnalyzer {
             .collect(Collectors.groupingBy(
                 course -> course.institution + "-" + course.courseSubject, Collectors.summingInt(course -> course.participant))).entrySet().stream()
             .sorted((o1, o2) -> {
-                if (o1.getValue() != o2.getValue()) {
+                if (!Objects.equals(o1.getValue(), o2.getValue())) {
                     return Integer.compare(o2.getValue(), o1.getValue());
                 } else {
                     return o1.getKey().compareTo(o2.getKey());
@@ -159,15 +160,12 @@ public class OnlineCoursesAnalyzer {
             .forEach(course -> course.similarity = Math.pow(age - course.averageMedianAge, 2) + Math.pow(
                 gender * 100 - course.averageMale, 2) + Math.pow(
                 isBachelorOrHigher * 100 - course.averageisB, 2));
-        return numCourse.entrySet().stream().map(e -> e.getValue())
-            .sorted(new Comparator<>() {
-                @Override
-                public int compare(Course o1, Course o2) {
-                    if (o1.similarity != o2.similarity) {
-                        return Double.compare(o1.similarity, o2.similarity);
-                    } else {
-                        return o1.courseTitle.compareTo(o2.courseTitle);
-                    }
+        return numCourse.values().stream()
+            .sorted((o1, o2) -> {
+                if (o1.similarity != o2.similarity) {
+                    return Double.compare(o1.similarity, o2.similarity);
+                } else {
+                    return o1.courseTitle.compareTo(o2.courseTitle);
                 }
             }).map(c -> c.courseTitle).distinct().limit(10).collect(Collectors.toList());
     }
